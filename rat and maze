@@ -31,6 +31,31 @@ class Solution{
         }
         
         // DLRU
+        /*
+         Avoid Writing This for Steps
+         string d="DLRU";
+        int dx[]={+1,0,0,-1};
+        int dy[]={+0,-1,1,0};
+        
+        for(int i=0;i<d.length();i++)
+        {
+            int nextX = x+dx[i];
+            int nextY = y+dy[i];
+            
+            if(isSafe(nextX, nextY, n,arr,vis))
+            {
+                vis[x][y]=1;
+                path.push_back(d[i]);
+                solve(nextX, nextY,arr,n,ans,vis,path);
+                path.pop_back();
+                vis[x][y]=0;
+            }
+            
+        }
+         
+        
+        
+        *?
         
         //Down
         vis[x][y]=1;
