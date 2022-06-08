@@ -12,3 +12,6 @@ Solved sort012 array
 Day 3:
 Duplicate elements in a Array
 Permutation of a string solved using Recurssion
+--------------------------------------
+Day 4 :
+Rat and maze 
